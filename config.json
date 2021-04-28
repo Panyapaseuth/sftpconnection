@@ -1,20 +1,20 @@
 {    "Member List": [
   {
-    "Name":"KO Bank",
-    "IP":"localhost",
+    "Name":"Desktop Bank",
+    "IP":"192.168.0.161",
     "User":"foo",
-    "Password":"pass",
+    "Password":"D1/kHDUHQAw=",
     "Port":22,
-    "Source Path":"27710418",
+    "Source Path":"70040418",
     "Destination Path":"upload"
   },
   {
-    "Name":"NO Bank",
-    "IP":"192.168.0.160",
+    "Name":"My Bank",
+    "IP":"localhost",
     "User":"foo",
-    "Password":"pass",
+    "Password":"D1/kHDUHQAw=",
     "Port":22,
-    "Source Path":"32170418",
+    "Source Path":"70020418",
     "Destination Path":"upload"
   }
 ]

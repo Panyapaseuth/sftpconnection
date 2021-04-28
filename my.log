@@ -1,0 +1,54 @@
+2021-04-28 11:16:04.920  INFO 11488 --- [main] c.e.s.SftpconnectionApplication          : Starting SftpconnectionApplication using Java 11.0.6 on MSI with PID 11488 (C:\Users\COMCOM\Documents\Spring\sftpconnection\target\classes started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
+2021-04-28 11:16:04.923  INFO 11488 --- [main] c.e.s.SftpconnectionApplication          : No active profile set, falling back to default profiles: default
+2021-04-28 11:16:05.709  INFO 11488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-28 11:16:05.716  INFO 11488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-28 11:16:05.716  INFO 11488 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-28 11:16:05.772  INFO 11488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-28 11:16:05.773  INFO 11488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 797 ms
+2021-04-28 11:16:05.923  INFO 11488 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-28 11:16:06.049  INFO 11488 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-04-28 11:16:06.080  INFO 11488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-28 11:16:06.095  INFO 11488 --- [main] c.e.s.SftpconnectionApplication          : Started SftpconnectionApplication in 1.605 seconds (JVM running for 2.396)
+2021-04-28 11:16:17.608  INFO 11488 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-28 11:16:17.609  INFO 11488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-28 11:16:17.610  INFO 11488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-04-28 11:16:17.631  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Sending files to :Desktop Bank
+2021-04-28 11:16:17.634  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Institution Number: 70040418
+2021-04-28 11:16:17.635  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : preparing the host information for sftp.
+2021-04-28 11:16:18.284  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Host connected.
+2021-04-28 11:16:23.709  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : sftp channel opened and connected.
+2021-04-28 11:16:24.586  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Succeeded
+2021-04-28 11:16:24.588  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Sending files to :My Bank
+2021-04-28 11:16:24.588  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Institution Number: 70020418
+2021-04-28 11:16:24.589  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : preparing the host information for sftp.
+2021-04-28 11:16:24.676  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Host connected.
+2021-04-28 11:16:25.133  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : sftp channel opened and connected.
+2021-04-28 11:16:25.139 ERROR 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Exception found while transfer the response.
+2021-04-28 11:16:25.139 ERROR 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : 4: Failure
+2021-04-28 11:17:08.744  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : Sending files to :Desktop Bank
+2021-04-28 11:17:08.744  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : Institution Number: 70040418
+2021-04-28 11:17:08.746  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : preparing the host information for sftp.
+2021-04-28 11:17:09.508  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : Host connected.
+2021-04-28 11:17:10.693  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : sftp channel opened and connected.
+2021-04-28 11:17:10.714 ERROR 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : Exception found while transfer the response.
+2021-04-28 11:17:10.714 ERROR 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : 4: Failure
+2021-04-28 11:17:10.715  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : Sending files to :My Bank
+2021-04-28 11:17:10.716  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : Institution Number: 70020418
+2021-04-28 11:17:10.717  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : preparing the host information for sftp.
+2021-04-28 11:17:10.804  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : Host connected.
+2021-04-28 11:17:11.316  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : sftp channel opened and connected.
+2021-04-28 11:17:11.357  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : Succeeded
+2021-04-28 11:56:00.011  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Sending files to :Desktop Bank
+2021-04-28 11:56:00.011  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Institution Number: 70040418
+2021-04-28 11:56:00.012  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : preparing the host information for sftp.
+2021-04-28 11:56:00.165  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Host connected.
+2021-04-28 11:56:01.392  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : sftp channel opened and connected.
+2021-04-28 11:56:01.436 ERROR 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Exception found while transfer the response.
+2021-04-28 11:56:01.437 ERROR 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : 4: Failure
+2021-04-28 11:56:01.437  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Sending files to :My Bank
+2021-04-28 11:56:01.438  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Institution Number: 70020418
+2021-04-28 11:56:01.440  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : preparing the host information for sftp.
+2021-04-28 11:56:01.532  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Host connected.
+2021-04-28 11:56:02.019  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : sftp channel opened and connected.
+2021-04-28 11:56:02.027 ERROR 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Exception found while transfer the response.
+2021-04-28 11:56:02.027 ERROR 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : 4: Failure
