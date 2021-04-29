@@ -68,7 +68,7 @@ public class ServiceSFTP {
     }
 
     @GetMapping("/sendFile")
-    @Scheduled(cron = "0 0/56 11 * * *")
+    @Scheduled(cron = "0 0 5 * * *")
     public void SFTP() throws Exception{
         String configPath = System.getProperty("user.dir") + "/config.json";
         Iterator<JSONObject> memberList = getMember(configPath);

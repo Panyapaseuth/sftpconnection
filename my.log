@@ -1,54 +1,52 @@
-2021-04-28 11:16:04.920  INFO 11488 --- [main] c.e.s.SftpconnectionApplication          : Starting SftpconnectionApplication using Java 11.0.6 on MSI with PID 11488 (C:\Users\COMCOM\Documents\Spring\sftpconnection\target\classes started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
-2021-04-28 11:16:04.923  INFO 11488 --- [main] c.e.s.SftpconnectionApplication          : No active profile set, falling back to default profiles: default
-2021-04-28 11:16:05.709  INFO 11488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-04-28 11:16:05.716  INFO 11488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-04-28 11:16:05.716  INFO 11488 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
-2021-04-28 11:16:05.772  INFO 11488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-04-28 11:16:05.773  INFO 11488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 797 ms
-2021-04-28 11:16:05.923  INFO 11488 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-28 11:16:06.049  INFO 11488 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2021-04-28 11:16:06.080  INFO 11488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-04-28 11:16:06.095  INFO 11488 --- [main] c.e.s.SftpconnectionApplication          : Started SftpconnectionApplication in 1.605 seconds (JVM running for 2.396)
-2021-04-28 11:16:17.608  INFO 11488 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-04-28 11:16:17.609  INFO 11488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-04-28 11:16:17.610  INFO 11488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2021-04-28 11:16:17.631  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Sending files to :Desktop Bank
-2021-04-28 11:16:17.634  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Institution Number: 70040418
-2021-04-28 11:16:17.635  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : preparing the host information for sftp.
-2021-04-28 11:16:18.284  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Host connected.
-2021-04-28 11:16:23.709  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : sftp channel opened and connected.
-2021-04-28 11:16:24.586  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Succeeded
-2021-04-28 11:16:24.588  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Sending files to :My Bank
-2021-04-28 11:16:24.588  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Institution Number: 70020418
-2021-04-28 11:16:24.589  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : preparing the host information for sftp.
-2021-04-28 11:16:24.676  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Host connected.
-2021-04-28 11:16:25.133  INFO 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : sftp channel opened and connected.
-2021-04-28 11:16:25.139 ERROR 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Exception found while transfer the response.
-2021-04-28 11:16:25.139 ERROR 11488 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : 4: Failure
-2021-04-28 11:17:08.744  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : Sending files to :Desktop Bank
-2021-04-28 11:17:08.744  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : Institution Number: 70040418
-2021-04-28 11:17:08.746  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : preparing the host information for sftp.
-2021-04-28 11:17:09.508  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : Host connected.
-2021-04-28 11:17:10.693  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : sftp channel opened and connected.
-2021-04-28 11:17:10.714 ERROR 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : Exception found while transfer the response.
-2021-04-28 11:17:10.714 ERROR 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : 4: Failure
-2021-04-28 11:17:10.715  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : Sending files to :My Bank
-2021-04-28 11:17:10.716  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : Institution Number: 70020418
-2021-04-28 11:17:10.717  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : preparing the host information for sftp.
-2021-04-28 11:17:10.804  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : Host connected.
-2021-04-28 11:17:11.316  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : sftp channel opened and connected.
-2021-04-28 11:17:11.357  INFO 11488 --- [http-nio-8080-exec-4] com.example.sftpconnection.ServiceSFTP   : Succeeded
-2021-04-28 11:56:00.011  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Sending files to :Desktop Bank
-2021-04-28 11:56:00.011  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Institution Number: 70040418
-2021-04-28 11:56:00.012  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : preparing the host information for sftp.
-2021-04-28 11:56:00.165  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Host connected.
-2021-04-28 11:56:01.392  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : sftp channel opened and connected.
-2021-04-28 11:56:01.436 ERROR 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Exception found while transfer the response.
-2021-04-28 11:56:01.437 ERROR 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : 4: Failure
-2021-04-28 11:56:01.437  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Sending files to :My Bank
-2021-04-28 11:56:01.438  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Institution Number: 70020418
-2021-04-28 11:56:01.440  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : preparing the host information for sftp.
-2021-04-28 11:56:01.532  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Host connected.
-2021-04-28 11:56:02.019  INFO 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : sftp channel opened and connected.
-2021-04-28 11:56:02.027 ERROR 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Exception found while transfer the response.
-2021-04-28 11:56:02.027 ERROR 11488 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : 4: Failure
+2021-04-29 10:32:22.458  INFO 18472 --- [main] c.e.s.SftpconnectionApplication          : Starting SftpconnectionApplication using Java 11.0.6 on MSI with PID 18472 (C:\Users\COMCOM\Documents\Spring\sftpconnection\target\classes started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
+2021-04-29 10:32:22.471  INFO 18472 --- [main] c.e.s.SftpconnectionApplication          : No active profile set, falling back to default profiles: default
+2021-04-29 10:32:23.780  INFO 18472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-29 10:32:23.793  INFO 18472 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-29 10:32:23.796  INFO 18472 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-29 10:32:23.894  INFO 18472 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-29 10:32:23.894  INFO 18472 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1291 ms
+2021-04-29 10:32:24.161  INFO 18472 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-29 10:32:24.344  INFO 18472 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-04-29 10:32:24.395  INFO 18472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-29 10:32:24.416  INFO 18472 --- [main] c.e.s.SftpconnectionApplication          : Started SftpconnectionApplication in 2.797 seconds (JVM running for 4.307)
+2021-04-29 10:32:48.277  INFO 21284 --- [main] c.e.s.SftpconnectionApplication          : Starting SftpconnectionApplication using Java 11.0.6 on MSI with PID 21284 (C:\Users\COMCOM\Documents\Spring\sftpconnection\target\classes started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
+2021-04-29 10:32:48.281  INFO 21284 --- [main] c.e.s.SftpconnectionApplication          : No active profile set, falling back to default profiles: default
+2021-04-29 10:32:49.624  INFO 21284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-29 10:32:49.638  INFO 21284 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-29 10:32:49.639  INFO 21284 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-29 10:32:49.764  INFO 21284 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-29 10:32:49.764  INFO 21284 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1418 ms
+2021-04-29 10:32:50.041  INFO 21284 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-29 10:32:50.205  INFO 21284 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-04-29 10:32:50.247  INFO 21284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-29 10:32:50.266  INFO 21284 --- [main] c.e.s.SftpconnectionApplication          : Started SftpconnectionApplication in 2.639 seconds (JVM running for 3.81)
+2021-04-29 10:45:51.987  INFO 6996 --- [main] c.e.s.SftpconnectionApplicationTests     : Starting SftpconnectionApplicationTests using Java 11.0.6 on MSI with PID 6996 (started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
+2021-04-29 10:45:51.993  INFO 6996 --- [main] c.e.s.SftpconnectionApplicationTests     : No active profile set, falling back to default profiles: default
+2021-04-29 10:45:54.389  INFO 6996 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-29 10:45:54.981  INFO 6996 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-04-29 10:45:55.040  INFO 6996 --- [main] c.e.s.SftpconnectionApplicationTests     : Started SftpconnectionApplicationTests in 3.579 seconds (JVM running for 5.317)
+2021-04-29 10:45:55.791  INFO 6996 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-04-29 10:45:55.794  INFO 6996 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-29 10:47:00.802  INFO 19612 --- [main] c.e.s.SftpconnectionApplication          : Starting SftpconnectionApplication using Java 11.0.6 on MSI with PID 19612 (C:\Users\COMCOM\Documents\Spring\sftpconnection\target\classes started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
+2021-04-29 10:47:00.806  INFO 19612 --- [main] c.e.s.SftpconnectionApplication          : No active profile set, falling back to default profiles: default
+2021-04-29 10:47:02.127  INFO 19612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-29 10:47:02.137  INFO 19612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-29 10:47:02.138  INFO 19612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-29 10:47:02.220  INFO 19612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-29 10:47:02.220  INFO 19612 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1329 ms
+2021-04-29 10:47:02.443  INFO 19612 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-29 10:47:02.609  INFO 19612 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-04-29 10:47:02.654  INFO 19612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-29 10:47:02.675  INFO 19612 --- [main] c.e.s.SftpconnectionApplication          : Started SftpconnectionApplication in 2.598 seconds (JVM running for 4.07)
+2021-04-29 11:00:00.031  INFO 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Sending files to :Desktop Bank
+2021-04-29 11:00:00.036  INFO 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Institution Number: 70040418
+2021-04-29 11:00:00.037  INFO 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : preparing the host information for sftp.
+2021-04-29 11:00:21.077 ERROR 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Exception found while transfer the response.
+2021-04-29 11:00:21.078 ERROR 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : com.jcraft.jsch.JSchException: java.net.ConnectException: Connection timed out: connect
+2021-04-29 11:00:21.080  INFO 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : java.lang.NullPointerException
+2021-04-29 11:00:21.080  INFO 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Sending files to :My Bank
+2021-04-29 11:00:21.080  INFO 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Institution Number: 70020418
+2021-04-29 11:00:21.081  INFO 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : preparing the host information for sftp.
+2021-04-29 11:00:23.136 ERROR 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Exception found while transfer the response.
+2021-04-29 11:00:23.137 ERROR 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : com.jcraft.jsch.JSchException: java.net.ConnectException: Connection refused: connect
+2021-04-29 11:00:23.137  INFO 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : java.lang.NullPointerException
