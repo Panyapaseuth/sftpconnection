@@ -74,9 +74,11 @@ public class ServiceSFTP {
         Iterator<JSONObject> memberList = getMember(configPath);
 
         LocalDate today = LocalDate.now();
-        String formattedDate = today.format(DateTimeFormatter.ofPattern("yyyyMMdd"));
+        LocalDate yesterday = today.minusDays(1);
 
-        String path = String.format("C:\\Users\\COMCOM\\Documents\\BT20\\%s\\" , formattedDate);
+        String formattedDate = yesterday.format(DateTimeFormatter.ofPattern("yyyyMMdd"));
+
+        String path = String.format("Y:\\%s\\" , formattedDate);
 
         ServiceSFTP td= new ServiceSFTP();
 
@@ -125,7 +127,8 @@ public class ServiceSFTP {
 //        System.out.println("preparing the host information for sftp.");
         logger.info("preparing the host information for sftp.");
         LocalDate today = LocalDate.now();
-        String formattedDate = today.format(DateTimeFormatter.ofPattern("yyyyMMdd"));
+        LocalDate yesterday = today.minusDays(1);
+        String formattedDate = yesterday.format(DateTimeFormatter.ofPattern("yyyyMMdd"));
 
         try {
             if (files != null) {

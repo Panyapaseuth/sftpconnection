@@ -1,52 +1,122 @@
-2021-04-29 10:32:22.458  INFO 18472 --- [main] c.e.s.SftpconnectionApplication          : Starting SftpconnectionApplication using Java 11.0.6 on MSI with PID 18472 (C:\Users\COMCOM\Documents\Spring\sftpconnection\target\classes started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
-2021-04-29 10:32:22.471  INFO 18472 --- [main] c.e.s.SftpconnectionApplication          : No active profile set, falling back to default profiles: default
-2021-04-29 10:32:23.780  INFO 18472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-04-29 10:32:23.793  INFO 18472 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-04-29 10:32:23.796  INFO 18472 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
-2021-04-29 10:32:23.894  INFO 18472 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-04-29 10:32:23.894  INFO 18472 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1291 ms
-2021-04-29 10:32:24.161  INFO 18472 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-29 10:32:24.344  INFO 18472 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2021-04-29 10:32:24.395  INFO 18472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-04-29 10:32:24.416  INFO 18472 --- [main] c.e.s.SftpconnectionApplication          : Started SftpconnectionApplication in 2.797 seconds (JVM running for 4.307)
-2021-04-29 10:32:48.277  INFO 21284 --- [main] c.e.s.SftpconnectionApplication          : Starting SftpconnectionApplication using Java 11.0.6 on MSI with PID 21284 (C:\Users\COMCOM\Documents\Spring\sftpconnection\target\classes started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
-2021-04-29 10:32:48.281  INFO 21284 --- [main] c.e.s.SftpconnectionApplication          : No active profile set, falling back to default profiles: default
-2021-04-29 10:32:49.624  INFO 21284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-04-29 10:32:49.638  INFO 21284 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-04-29 10:32:49.639  INFO 21284 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
-2021-04-29 10:32:49.764  INFO 21284 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-04-29 10:32:49.764  INFO 21284 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1418 ms
-2021-04-29 10:32:50.041  INFO 21284 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-29 10:32:50.205  INFO 21284 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2021-04-29 10:32:50.247  INFO 21284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-04-29 10:32:50.266  INFO 21284 --- [main] c.e.s.SftpconnectionApplication          : Started SftpconnectionApplication in 2.639 seconds (JVM running for 3.81)
-2021-04-29 10:45:51.987  INFO 6996 --- [main] c.e.s.SftpconnectionApplicationTests     : Starting SftpconnectionApplicationTests using Java 11.0.6 on MSI with PID 6996 (started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
-2021-04-29 10:45:51.993  INFO 6996 --- [main] c.e.s.SftpconnectionApplicationTests     : No active profile set, falling back to default profiles: default
-2021-04-29 10:45:54.389  INFO 6996 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-29 10:45:54.981  INFO 6996 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2021-04-29 10:45:55.040  INFO 6996 --- [main] c.e.s.SftpconnectionApplicationTests     : Started SftpconnectionApplicationTests in 3.579 seconds (JVM running for 5.317)
-2021-04-29 10:45:55.791  INFO 6996 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
-2021-04-29 10:45:55.794  INFO 6996 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2021-04-29 10:47:00.802  INFO 19612 --- [main] c.e.s.SftpconnectionApplication          : Starting SftpconnectionApplication using Java 11.0.6 on MSI with PID 19612 (C:\Users\COMCOM\Documents\Spring\sftpconnection\target\classes started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
-2021-04-29 10:47:00.806  INFO 19612 --- [main] c.e.s.SftpconnectionApplication          : No active profile set, falling back to default profiles: default
-2021-04-29 10:47:02.127  INFO 19612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-04-29 10:47:02.137  INFO 19612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-04-29 10:47:02.138  INFO 19612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
-2021-04-29 10:47:02.220  INFO 19612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-04-29 10:47:02.220  INFO 19612 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1329 ms
-2021-04-29 10:47:02.443  INFO 19612 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-29 10:47:02.609  INFO 19612 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2021-04-29 10:47:02.654  INFO 19612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-04-29 10:47:02.675  INFO 19612 --- [main] c.e.s.SftpconnectionApplication          : Started SftpconnectionApplication in 2.598 seconds (JVM running for 4.07)
-2021-04-29 11:00:00.031  INFO 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Sending files to :Desktop Bank
-2021-04-29 11:00:00.036  INFO 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Institution Number: 70040418
-2021-04-29 11:00:00.037  INFO 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : preparing the host information for sftp.
-2021-04-29 11:00:21.077 ERROR 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Exception found while transfer the response.
-2021-04-29 11:00:21.078 ERROR 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : com.jcraft.jsch.JSchException: java.net.ConnectException: Connection timed out: connect
-2021-04-29 11:00:21.080  INFO 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : java.lang.NullPointerException
-2021-04-29 11:00:21.080  INFO 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Sending files to :My Bank
-2021-04-29 11:00:21.080  INFO 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Institution Number: 70020418
-2021-04-29 11:00:21.081  INFO 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : preparing the host information for sftp.
-2021-04-29 11:00:23.136 ERROR 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : Exception found while transfer the response.
-2021-04-29 11:00:23.137 ERROR 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : com.jcraft.jsch.JSchException: java.net.ConnectException: Connection refused: connect
-2021-04-29 11:00:23.137  INFO 19612 --- [scheduling-1] com.example.sftpconnection.ServiceSFTP   : java.lang.NullPointerException
+2021-05-03 09:54:20.975  INFO 10040 --- [main] c.e.s.SftpconnectionApplication          : Starting SftpconnectionApplication using Java 11.0.6 on MSI with PID 10040 (C:\Users\COMCOM\Documents\Spring\sftpconnection\target\classes started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
+2021-05-03 09:54:20.988  INFO 10040 --- [main] c.e.s.SftpconnectionApplication          : No active profile set, falling back to default profiles: default
+2021-05-03 09:54:21.791  INFO 10040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-03 09:54:21.799  INFO 10040 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-03 09:54:21.799  INFO 10040 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-03 09:54:21.857  INFO 10040 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-03 09:54:21.857  INFO 10040 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 794 ms
+2021-05-03 09:54:22.010  INFO 10040 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-03 09:54:22.124  INFO 10040 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-03 09:54:22.149  INFO 10040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-03 09:54:22.161  INFO 10040 --- [main] c.e.s.SftpconnectionApplication          : Started SftpconnectionApplication in 1.664 seconds (JVM running for 2.367)
+2021-05-03 10:00:56.744  INFO 7788 --- [main] c.e.s.SftpconnectionApplication          : Starting SftpconnectionApplication using Java 11.0.6 on MSI with PID 7788 (C:\Users\COMCOM\Documents\Spring\sftpconnection\target\classes started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
+2021-05-03 10:00:56.752  INFO 7788 --- [main] c.e.s.SftpconnectionApplication          : No active profile set, falling back to default profiles: default
+2021-05-03 10:00:57.497  INFO 7788 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-03 10:00:57.514  INFO 7788 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-03 10:00:57.515  INFO 7788 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-03 10:00:57.566  INFO 7788 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-03 10:00:57.567  INFO 7788 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 778 ms
+2021-05-03 10:00:57.705  INFO 7788 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-03 10:00:57.797  INFO 7788 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-03 10:00:57.831  INFO 7788 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-03 10:00:57.842  INFO 7788 --- [main] c.e.s.SftpconnectionApplication          : Started SftpconnectionApplication in 1.404 seconds (JVM running for 2.063)
+2021-05-03 10:02:03.962  INFO 7788 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-03 10:02:03.963  INFO 7788 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-03 10:02:03.964  INFO 7788 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-03 10:02:03.984  INFO 7788 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Sending files to :Desktop Bank
+2021-05-03 10:02:03.990  INFO 7788 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Institution Number: 70040418
+2021-05-03 10:02:03.990  INFO 7788 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : preparing the host information for sftp.
+2021-05-03 10:02:25.035 ERROR 7788 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Exception found while transfer the response.
+2021-05-03 10:02:25.035 ERROR 7788 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : com.jcraft.jsch.JSchException: java.net.ConnectException: Connection timed out: connect
+2021-05-03 10:02:25.037  INFO 7788 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : java.lang.NullPointerException
+2021-05-03 10:02:25.038  INFO 7788 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Sending files to :My Bank
+2021-05-03 10:02:25.038  INFO 7788 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Institution Number: 70020418
+2021-05-03 10:02:25.038  INFO 7788 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : preparing the host information for sftp.
+2021-05-03 10:02:25.208  INFO 7788 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Host connected.
+2021-05-03 10:02:25.704  INFO 7788 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : sftp channel opened and connected.
+2021-05-03 10:02:25.747  INFO 7788 --- [http-nio-8080-exec-1] com.example.sftpconnection.ServiceSFTP   : Succeeded
+2021-05-03 10:10:05.224  INFO 10988 --- [main] c.e.s.SftpconnectionApplication          : Starting SftpconnectionApplication using Java 11.0.6 on MSI with PID 10988 (C:\Users\COMCOM\Documents\Spring\sftpconnection\target\classes started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
+2021-05-03 10:10:05.229  INFO 10988 --- [main] c.e.s.SftpconnectionApplication          : No active profile set, falling back to default profiles: default
+2021-05-03 10:10:06.319  INFO 10988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-03 10:10:06.329  INFO 10988 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-03 10:10:06.329  INFO 10988 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-03 10:10:06.411  INFO 10988 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-03 10:10:06.411  INFO 10988 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1122 ms
+2021-05-03 10:10:06.611  INFO 10988 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-03 10:10:06.744  INFO 10988 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-03 10:10:06.775  INFO 10988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-03 10:10:06.791  INFO 10988 --- [main] c.e.s.SftpconnectionApplication          : Started SftpconnectionApplication in 2.149 seconds (JVM running for 3.339)
+2021-05-03 10:10:17.693  INFO 2592 --- [main] c.e.s.SftpconnectionApplicationTests     : Starting SftpconnectionApplicationTests using Java 1.8.0_291 on MSI with PID 2592 (started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
+2021-05-03 10:10:17.698  INFO 2592 --- [main] c.e.s.SftpconnectionApplicationTests     : No active profile set, falling back to default profiles: default
+2021-05-03 10:10:19.953  INFO 2592 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-03 10:10:20.418  INFO 2592 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-03 10:10:20.485  INFO 2592 --- [main] c.e.s.SftpconnectionApplicationTests     : Started SftpconnectionApplicationTests in 3.211 seconds (JVM running for 4.834)
+2021-05-03 10:10:21.243  INFO 2592 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-05-03 10:10:21.246  INFO 2592 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-03 10:11:47.515  INFO 15292 --- [main] c.e.s.SftpconnectionApplicationTests     : Starting SftpconnectionApplicationTests using Java 1.8.0_291 on MSI with PID 15292 (started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
+2021-05-03 10:11:47.519  INFO 15292 --- [main] c.e.s.SftpconnectionApplicationTests     : No active profile set, falling back to default profiles: default
+2021-05-03 10:11:49.153  INFO 15292 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-03 10:11:49.493  INFO 15292 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-03 10:11:49.525  INFO 15292 --- [main] c.e.s.SftpconnectionApplicationTests     : Started SftpconnectionApplicationTests in 2.306 seconds (JVM running for 3.259)
+2021-05-03 10:11:49.916  INFO 15292 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-05-03 10:11:49.918  INFO 15292 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-03 10:14:01.019  INFO 6944 --- [main] c.e.s.SftpconnectionApplicationTests     : Starting SftpconnectionApplicationTests using Java 1.8.0_291 on MSI with PID 6944 (started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
+2021-05-03 10:14:01.025  INFO 6944 --- [main] c.e.s.SftpconnectionApplicationTests     : No active profile set, falling back to default profiles: default
+2021-05-03 10:14:02.418  INFO 6944 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-03 10:14:02.783  INFO 6944 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-03 10:14:02.825  INFO 6944 --- [main] c.e.s.SftpconnectionApplicationTests     : Started SftpconnectionApplicationTests in 2.072 seconds (JVM running for 2.986)
+2021-05-03 10:14:03.248  INFO 6944 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-05-03 10:14:03.250  INFO 6944 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-03 10:21:40.499  INFO 3116 --- [main] c.e.s.SftpconnectionApplication          : Starting SftpconnectionApplication using Java 11.0.6 on MSI with PID 3116 (C:\Users\COMCOM\Documents\Spring\sftpconnection\target\classes started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
+2021-05-03 10:21:40.503  INFO 3116 --- [main] c.e.s.SftpconnectionApplication          : No active profile set, falling back to default profiles: default
+2021-05-03 10:21:41.207  INFO 3116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-03 10:21:41.213  INFO 3116 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-03 10:21:41.214  INFO 3116 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-03 10:21:41.273  INFO 3116 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-03 10:21:41.274  INFO 3116 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 731 ms
+2021-05-03 10:21:41.434  INFO 3116 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-03 10:21:41.542  INFO 3116 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-03 10:21:41.570  INFO 3116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-03 10:21:41.583  INFO 3116 --- [main] c.e.s.SftpconnectionApplication          : Started SftpconnectionApplication in 1.408 seconds (JVM running for 2.053)
+2021-05-03 10:35:08.723  INFO 1968 --- [main] c.e.s.SftpconnectionApplicationTests     : Starting SftpconnectionApplicationTests using Java 1.8.0_291 on MSI with PID 1968 (started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
+2021-05-03 10:35:08.727  INFO 1968 --- [main] c.e.s.SftpconnectionApplicationTests     : No active profile set, falling back to default profiles: default
+2021-05-03 10:35:10.163  INFO 1968 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-03 10:35:10.477  INFO 1968 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-03 10:35:10.559  INFO 1968 --- [main] c.e.s.SftpconnectionApplicationTests     : Started SftpconnectionApplicationTests in 2.11 seconds (JVM running for 3.125)
+2021-05-03 10:35:11.250  INFO 1968 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-05-03 10:35:11.253  INFO 1968 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-03 10:36:04.324  INFO 8536 --- [main] c.e.s.SftpconnectionApplicationTests     : Starting SftpconnectionApplicationTests using Java 1.8.0_291 on MSI with PID 8536 (started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
+2021-05-03 10:36:04.327  INFO 8536 --- [main] c.e.s.SftpconnectionApplicationTests     : No active profile set, falling back to default profiles: default
+2021-05-03 10:36:06.167  INFO 8536 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-03 10:36:06.648  INFO 8536 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-03 10:36:06.707  INFO 8536 --- [main] c.e.s.SftpconnectionApplicationTests     : Started SftpconnectionApplicationTests in 2.643 seconds (JVM running for 3.519)
+2021-05-03 10:36:07.224  INFO 8536 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-05-03 10:36:07.226  INFO 8536 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-03 10:54:54.145  INFO 15052 --- [main] c.e.s.SftpconnectionApplicationTests     : Starting SftpconnectionApplicationTests using Java 1.8.0_291 on MSI with PID 15052 (started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
+2021-05-03 10:54:54.149  INFO 15052 --- [main] c.e.s.SftpconnectionApplicationTests     : No active profile set, falling back to default profiles: default
+2021-05-03 10:54:55.665  INFO 15052 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-03 10:54:55.990  INFO 15052 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-03 10:54:56.029  INFO 15052 --- [main] c.e.s.SftpconnectionApplicationTests     : Started SftpconnectionApplicationTests in 2.147 seconds (JVM running for 3.022)
+2021-05-03 10:54:56.440  INFO 15052 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-05-03 10:54:56.441  INFO 15052 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-03 10:55:38.801  INFO 1980 --- [main] c.e.s.SftpconnectionApplicationTests     : Starting SftpconnectionApplicationTests using Java 1.8.0_291 on MSI with PID 1980 (started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
+2021-05-03 10:55:38.804  INFO 1980 --- [main] c.e.s.SftpconnectionApplicationTests     : No active profile set, falling back to default profiles: default
+2021-05-03 10:55:40.271  INFO 1980 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-03 10:55:40.758  INFO 1980 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-03 10:55:40.827  INFO 1980 --- [main] c.e.s.SftpconnectionApplicationTests     : Started SftpconnectionApplicationTests in 2.303 seconds (JVM running for 3.195)
+2021-05-03 10:55:41.419  INFO 1980 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-05-03 10:55:41.421  INFO 1980 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-03 10:56:23.144  INFO 3616 --- [main] c.e.s.SftpconnectionApplicationTests     : Starting SftpconnectionApplicationTests using Java 1.8.0_291 on MSI with PID 3616 (started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
+2021-05-03 10:56:23.149  INFO 3616 --- [main] c.e.s.SftpconnectionApplicationTests     : No active profile set, falling back to default profiles: default
+2021-05-03 10:56:24.675  INFO 3616 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-03 10:56:25.104  INFO 3616 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-03 10:56:25.162  INFO 3616 --- [main] c.e.s.SftpconnectionApplicationTests     : Started SftpconnectionApplicationTests in 2.274 seconds (JVM running for 3.147)
+2021-05-03 10:56:25.681  INFO 3616 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-05-03 10:56:25.683  INFO 3616 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-03 11:07:28.834  INFO 11932 --- [main] c.e.s.SftpconnectionApplicationTests     : Starting SftpconnectionApplicationTests using Java 1.8.0_291 on MSI with PID 11932 (started by COMCOM in C:\Users\COMCOM\Documents\Spring\sftpconnection)
+2021-05-03 11:07:28.837  INFO 11932 --- [main] c.e.s.SftpconnectionApplicationTests     : No active profile set, falling back to default profiles: default
+2021-05-03 11:07:30.905  INFO 11932 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-03 11:07:31.349  INFO 11932 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-03 11:07:31.418  INFO 11932 --- [main] c.e.s.SftpconnectionApplicationTests     : Started SftpconnectionApplicationTests in 2.847 seconds (JVM running for 3.726)
+2021-05-03 11:07:31.938  INFO 11932 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-05-03 11:07:31.939  INFO 11932 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

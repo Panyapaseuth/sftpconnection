@@ -14,8 +14,10 @@
     <name>sftpconnection</name>
     <description>Demo project for Spring Boot</description>
     <properties>
-        <java.version>11</java.version>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -48,5 +50,6 @@
             </plugin>
         </plugins>
     </build>
+
 
 </project>
